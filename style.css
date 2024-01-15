@@ -1,6 +1,9 @@
 body{
   width: 100%;
   font-family: 'Ubuntu', sans-serif;
+  margin: 3px;
+  padding: 0;
+  overflow-x: hidden;
 }
 /* inizio intestazione */
 header{
@@ -12,6 +15,16 @@ header{
 header p{
   line-height: 10px;
 }
+header .grosso{
+  font-size: 22px;
+}
+header .piccolo{
+  font-size: smaller;
+}
+
+.titolo strong{
+  color: rgb(4, 178, 178);
+}
 
 .logo{
   height: 10%;
@@ -21,7 +34,6 @@ header p{
 }
 
 .logo img{
-
   position: absolute;
   bottom: 0;
   left: 0;
@@ -33,9 +45,16 @@ main{
 }
 
 .foto-tim{
-  margin-top: 180px;
-  width: 100%;
-  height: auto;
+  margin-top: 220px;
+  max-width: 90%;
+  min-width: 300px;
+  display: flex;
+}
+.foto-tim img{
+  max-width: 90%;
+  height: auto; 
+  flex: auto;
+  margin-left: 0;  
 }
 
 .didascalia{
@@ -65,4 +84,33 @@ main{
 
  #terza-riga{
   background-color: rgb(176, 228, 241) ;
+}
+/* fine tabella */
+
+/* footer */
+.foto-fondo{
+  max-width: 25%;
+}
+
+footer p{
+  color: rgb(138, 133, 133);
+  font-weight: 700;
+}
+
+ footer span{
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+ }
+/* immagini del footer */
+.monitor{
+  background-image: url(Assets/img/monitor.jpg);
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.grafico{
+  background-image: url(Assets/img/graph.jpg);
+  width: 300px;
+  height: 200px;
 }
