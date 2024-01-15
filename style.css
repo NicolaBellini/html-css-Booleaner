@@ -61,6 +61,9 @@ main{
   line-height: 5px;
   font-size: smaller;
 }
+.articolo-sopra span{
+  background-color: yellow;
+}
 
  /* tabella */
 
@@ -86,6 +89,9 @@ main{
   background-color: rgb(176, 228, 241) ;
 }
 /* fine tabella */
+.articolo-sotto span{
+  background-color: yellow;
+}
 
 /* footer */
 .foto-fondo{
