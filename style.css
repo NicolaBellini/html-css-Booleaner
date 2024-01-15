@@ -13,7 +13,7 @@ header{
   padding: 0;
   height: 100px;
   background-image: url(Assets/img/pattern.png);
-  background-color: rgb(170, 141, 87) ;
+  background-color: rgb(87, 147, 170) ;
 }
 
 header p{
@@ -89,10 +89,10 @@ main{
 
  /* tabella */
 
- .tabella{
+ table{
   border: none;
   text-align: justify;
-  
+  border-collapse: collapse;
  }
  #testa-tabella{
   background-color: rgb(71, 71, 71);
